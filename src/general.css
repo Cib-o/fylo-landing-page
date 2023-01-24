@@ -1,0 +1,18 @@
+/** Fonts **/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/** Colors **/
+:root {
+  /* Primary */
+  --very-dark-blue: rgb(7, 4, 57);
+  --desaturated-blue: rgb(88, 89, 137);
+
+  /* Accent */
+  --bright-blue: rgb(48, 101, 248);
+  --moderate-cyan: rgb(60, 159, 143);
+
+  /* Neutral */
+  --light-grayish-blue: rgb(246, 246, 254);
+  --light-gray: rgb(191, 191, 191);
+}
