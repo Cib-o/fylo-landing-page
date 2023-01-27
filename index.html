@@ -15,9 +15,9 @@
     <img src="./images/logo.svg">
 
     <nav>
-      <a href="#">Features</a>
-      <a href="#">Team</a>
-      <a href="#">Sign In</a>
+      <a>Features</a>
+      <a>Team</a>
+      <a>Sign In</a>
     </nav>
   </header>
 
@@ -29,9 +29,10 @@
         Access them wherever you need, share and collaborate with friends,
         family, and co-workers.</p>
 
-      <form>
-        <input type="email" placeholder="Enter your email...">
-        <button>Get Started</button>
+      <form id="form1">
+        <input id="input1" type="email" value="" placeholder="Enter your email...">
+        <span id="info1">Please check your email</span>
+        <button type="submit" id="submit">Get Started</button>
       </form>
     </div>
 
@@ -50,7 +51,7 @@
       <p>Securely share files and folders with friends, family and colleagues for
         live collaboration. No email attachments required!</p>
   
-      <a href="#">See how Fylo works <img src="./images/icon-arrow.svg"></a>
+      <a>See how Fylo works <img src="./images/icon-arrow.svg"></a>
   
       <div class="card">
         <img src="./images/icon-quotes.svg">
@@ -80,10 +81,10 @@
           If you have any questions, our support team would be happy to help you.</p>
       </div>
   
-      <form class="right-side">
-        <input type="email" placeholder="email@example.com">
-  
-        <button>Get Started For Free</button>
+      <form id="form2" class="right-side">
+        <input id="input2" type="email" value="" placeholder="email@example.com">
+        <span id="info2">Please check your email</span>
+        <button type="submit" id="submit">Get Started For Free</button>
       </form>
     </div>
 
@@ -91,22 +92,22 @@
       <div class="first-grid">
         <img src="./images/logo-light.svg">
   
-        <a href="#"><img src="./images/icon-phone.svg"> Phone: +1-543-123-4567</a>
+        <a><img src="./images/icon-phone.svg"> Phone: +1-543-123-4567</a>
   
-        <a href="#"><img src="./images/icon-email.svg"> example@fylo.com</a>
+        <a><img src="./images/icon-email.svg"> example@fylo.com</a>
       </div>
   
       <div class="second-grid">
-        <a href="#">About Us</a>
-        <a href="#">Jobs</a>
-        <a href="#">Press</a>
-        <a href="#">Blog</a>
+        <a>About Us</a>
+        <a>Jobs</a>
+        <a>Press</a>
+        <a>Blog</a>
       </div>
   
       <div class="third-grid">
-        <a href="#">Contact Us</a>
-        <a href="#">Terms</a>
-        <a href="#">Privacy</a>
+        <a>Contact Us</a>
+        <a>Terms</a>
+        <a>Privacy</a>
       </div>
   
       <div class="fourth-grid">
@@ -116,6 +117,8 @@
       </div>  
     </div>
   </div>
+
+  <script src="./src/index.js"></script>
 </body>
 
 </html>
